@@ -1,0 +1,102 @@
+.CardsContainer {
+    max-width: 256px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+}
+
+.CardsContainer img {
+    width: 90px;
+    border: 3px solid #fff;
+    border-radius: 100px;
+}
+
+.CardsContainerTop {
+    padding: 28px 0px 41px 32px;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+}
+
+.CardsContainerTop h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 2px;
+}
+
+.CardsContainerTop p {
+    margin-bottom: 2px;
+}
+
+.CardsContainerButton {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 24px 32px;
+}
+
+.CardsContainerButton button {
+    color: rgb(56, 107, 184);
+    cursor: pointer;
+    border: none;
+    background-color: hsl(235, 46%, 20%);
+    padding: 12px 10px;
+}
+
+.CardsContainerButton button:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+
+    .CardsContainerTop h1 {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 100;
+        color: #fff;
+    }
+    
+    .CardsContainerTop p {
+    }
+
+
+
+    .CardsContainer {
+        margin: 0 auto;
+        max-width: 340px;
+    }
+
+    .CardsContainer img {
+        width: 60px;
+        border: 3px solid #fff;
+        border-radius: 100px;
+        margin-left: 15px;
+    }
+
+    .CardsContainerTop {
+
+
+        padding: 0px;
+        display: flex;
+        width: 340px;
+        align-items: center;
+    }
+
+    .CardsContainerButton{
+
+        height: 20px;
+        margin-bottom: 20px;
+
+        color: rgb(56, 107, 184);
+        cursor: pointer;
+        border: none;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ReportFor{
+        margin: 0 auto;
+
+    }
+}

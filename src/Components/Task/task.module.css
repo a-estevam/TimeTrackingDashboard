@@ -1,0 +1,59 @@
+
+.Task{
+    width: 200px;
+    margin-top: 40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.Task h3{
+    margin-top: 10px;
+}
+.Task h1{
+    margin: 3px;
+
+}
+.Task p{
+    margin-top: 2px;
+}
+
+.TasksTop{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.TasksTop button{
+    color: rgb(56, 107, 184);
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(235, 46%, 20%);
+
+}
+
+.TasksTop button:hover{
+    color: #fff;
+}
+
+/* */
+
+@media screen and (max-width: 600px){ 
+    
+    
+.Task{
+    width: 300px;
+    margin-top: 40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.Description{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+}
